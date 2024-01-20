@@ -1,0 +1,214 @@
+/* Default styles for the website */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0 0 1rem;
+  text-align: center;
+  color: #004c9a;
+}
+
+.left {
+  text-align: left;
+}
+
+/* table styles */
+
+#quizTable {
+  margin: 1.6em auto 0 auto;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+#quizTable th,
+#quizTable td {
+  padding: 0.5em 1em;
+  border: 1px solid #004c9a;
+}
+
+#quizTable th {
+  background-color: #004c9a;
+  color: #fff;
+}
+
+#quizTable tr:nth-child(5n+3) {
+  background-color: #eff5fe;
+}
+
+#quizTable tr:nth-child(5n) {
+  border-bottom: 5px solid #004c9a;
+}
+
+#quizTable td {
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+}
+
+#quizTable td:nth-child(2n+1) {
+  background-color: #eff5fe;
+}
+
+#quizTable td:nth-child(5n+4) {
+  font-family: 'Noto sans', sans-serif;
+}
+
+/* button styles */
+
+button {
+  margin: 0.8em;
+  padding: 0.8em 1.2em;
+  background-color: #004c9a;
+  border: none;
+  color: #fff;
+  font-size: 0.86em;
+  height: 1.4em 1.2em;
+  border-radius: 3cap;
+}
+
+button.hover:hover {
+  background-color: #427ab3;
+  color: #feda6a;
+  cursor: pointer;
+}
+
+#resetQuizButton {
+  background-color: #feda6a;
+  border: none;
+  color: #29527a;
+}
+
+#resetQuizButton.hover:hover {
+  background-color: #ffecb4;
+  color: #86b6fd;
+  cursor: pointer;
+}
+
+button.active-mode {
+  background-color: #639bcf;
+  color: #f7e2a9;
+}
+
+button.normalColor {
+  background-color: transparent;
+  color: #fff;
+}
+
+/* 以下のスタイルは、主にテーブルの見た目を調整するものです。 */
+#quizTable td.row-number:hover {
+  background-color: #feda6a;
+  color: #29527a;
+  cursor: pointer;
+}
+
+#quizTable img {
+  max-width: 5em;
+  max-height: 5em;
+  display: block;
+  margin: auto;
+}
+
+#quizTable td.blank {
+  cursor: pointer;
+  color: transparent;
+}
+
+/* #quizTable td.blank:hover,
+#quizTable td.revealed:hover {
+  background-color: #fffbc5;
+  color: #555;
+}*/
+
+#quizTable th.quizHead {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #004c9a;
+  color: #eee;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#quizTable th.quizHead:hover {
+  background-color: #427ab3;
+  color: #feda6a;
+}
+
+#quizTable th.row-number {
+  background-color: #004c9a;
+  border: 1px solid #004c9a;
+}
+
+#quizTable td.row-number {
+  padding: 0% 0.2em;
+  background-color: #fefefe;
+  border: none;
+  font-size: 0.9em;
+  font-family: 'Roboto', sans-serif;
+}
+
+#quizTable th.row-number span {
+  font-size: 0.8em;
+  color: #004c9a;
+}
+
+#quizTable td.highlighted {
+  background-color: #feda6a;  /* ハイライト時のアクセントカラー */
+  color: #004c9a;
+}
+
+
+/* セクションスタイル */
+section {
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  background-color: #fff;
+  max-width: 800px;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  border-bottom: 2px solid #004c9a;
+  padding-bottom: 0.5rem;
+}
+
+section p,
+section ul {
+  font-size: 1.2rem;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+section ul {
+  list-style-type: disc;
+  margin-left: 2rem;
+}
+
+/* フッタースタイル */
+footer {
+  margin: 2rem auto;
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid #d1d1d1;
+}
+
+footer a {
+  color: #004c9a;
+  text-decoration: none;
+  font-size: 1.4rem;
+  border-bottom: 1px dotted #004c9a;
+}
+
+footer a:hover {
+  color: #feda6a;
+  border-bottom: 1px solid #004c9a;
+}

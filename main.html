@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>生薬暗記用</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <button id="revealAllButton" class="hover">一括表示・非表示</button>
+  <button id="createRandomQuizButton" class="hover">ランダム表示</button>
+  <button id="shuffleRowsButton" class="hover">シャッフル</button>
+  <button id="toggleLimitedModeButton" class="hover">40行表示</button>
+  <button id="resetQuizButton" class="hover">リセット</button>
+  <button class="normalColor hover"><a href="how-to-use.html">使い方</a></button>
+  <table id="quizTable">
+    <thead>
+      <tr>
+        <th class="row-number"></th>
+        <th class="quizHead data00">生薬</th>
+        <th class="quizHead data01">基原</th>
+        <th class="quizHead data02">学名</th>
+        <th class="quizHead data03">科名</th>
+        <th class="quizHead data04">部位</th>
+        <th class="quizHead data05">用法</th>
+        <th class="quizHead data06">試験</th>
+        <th class="quizHead data07">成分</th>
+        <th class="quizHead data08">構造</th>
+      </tr>
+    </thead>
+    <tbody id="quizBody"></tbody>
+  </table>
+
+  <script src="scripts/db.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
