@@ -6,7 +6,7 @@
 - ランダムに項目の一部を表示させる機能をつけました。
 - 83 項目は多すぎるという方向けに、40 項目のみ表示する機能を付けました。
 
-💡[生薬暗記表](https://lifeonfloor.github.io/ShoyakuQuiz)を開く
+💡[生薬暗記表](https://lifeonfloor.github.io/ShoyakuQuiz/index.html)を開く
 
 # 使い方
 
